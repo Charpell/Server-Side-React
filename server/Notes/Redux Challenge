@@ -1,0 +1,10 @@
+1 Redux needs different configuration on browser vs server
+
+2 Aspects of authentication needs to be handled on server. 
+Normally this is only on browser
+
+3 Need some way to detect when all initial dta load action creators are
+completed on server
+
+4 Need state rehydration on the browser
+

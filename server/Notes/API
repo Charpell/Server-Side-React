@@ -1,0 +1,19 @@
+react-ssr-api.herokuapp.com
+
+/
+API Documentaition
+
+/users
+Return a list of users
+
+/admins
+Return a list of admins if user is logged in
+
+/auth/google
+Start the auth process
+
+/current_user
+Return the information about the currently logged in user
+
+/logout
+Log out of the app
