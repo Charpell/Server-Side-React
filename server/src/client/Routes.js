@@ -4,12 +4,17 @@ import UsersListPage from './pages/UsersListPage';
 
 export default [
   {
-    ...HomePage,
-    path: '/',
-    exact: true
-  },
-  {
-    ...UsersListPage,
-    path: '/users',
+    ...App,
+    routes: [
+      {
+        ...HomePage,
+        path: '/',
+        exact: true
+      },
+      {
+        ...UsersListPage,
+        path: '/users'
+      }
+    ]
   }
 ];
